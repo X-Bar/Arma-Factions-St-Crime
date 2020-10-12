@@ -352,9 +352,9 @@ class cfgVehicles
     faction="St_Crime_Street_Criminals";
     side=0;
     displayName="Fuel Truck";
-    hiddenSelectionsTextures[]={"a3\soft_f_gamma\van_01\data\van_01_ext_co.paa","a3\soft_f_gamma\van_01\data\van_01_tank_red_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    hiddenSelectionsTextures[]={"a3\soft_f_gamma\van_01\data\van_01_ext_black_co.paa","a3\soft_f_gamma\van_01\data\van_01_tank_red_co.paa"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_Hatchback: C_Hatchback_01_F
@@ -362,9 +362,9 @@ class cfgVehicles
     faction="St_Crime_Street_Criminals";
     side=0;
     displayName="Hatchback";
-    hiddenSelectionsTextures[]={"a3\soft_f_gamma\hatchback_01\data\hatchback_01_ext_base03_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    hiddenSelectionsTextures[]={"a3\soft_f_gamma\hatchback_01\data\hatchback_01_ext_base07_co.paa"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_Jeep: C_Offroad_02_unarmed_F
@@ -372,9 +372,9 @@ class cfgVehicles
     faction="St_Crime_Street_Criminals";
     side=0;
     displayName="Jeep";
-    hiddenSelectionsTextures[]={"a3\soft_f_exp\offroad_02\data\offroad_02_ext_blue_co.paa","a3\soft_f_exp\offroad_02\data\offroad_02_ext_blue_co.paa","a3\soft_f_exp\offroad_02\data\offroad_02_int_blue_co.paa","a3\soft_f_exp\offroad_02\data\offroad_02_int_blue_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    hiddenSelectionsTextures[]={"a3\soft_f_exp\offroad_02\data\offroad_02_ext_black_co.paa","a3\soft_f_exp\offroad_02\data\offroad_02_ext_black_co.paa","a3\soft_f_exp\offroad_02\data\offroad_02_int_black_co.paa","a3\soft_f_exp\offroad_02\data\offroad_02_int_black_co.paa"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_Offroad: C_Offroad_01_F
@@ -383,8 +383,8 @@ class cfgVehicles
     side=0;
     displayName="Offroad";
     hiddenSelectionsTextures[]={"a3\soft_f\offroad_01\data\offroad_01_ext_base02_co.paa","a3\soft_f\offroad_01\data\offroad_01_ext_base02_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_Crossover: C_SUV_01_F
@@ -393,8 +393,8 @@ class cfgVehicles
     side=0;
     displayName="Crossover";
     hiddenSelectionsTextures[]={"a3\soft_f_gamma\suv_01\data\suv_01_ext_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_M900: C_Heli_Light_01_civil_F
@@ -402,9 +402,9 @@ class cfgVehicles
     faction="St_Crime_Street_Criminals";
     side=0;
     displayName="M900";
-    hiddenSelectionsTextures[]={"a3\air_f\heli_light_01\data\heli_light_01_ext_blue_co.paa",""};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    hiddenSelectionsTextures[]={"a3\air_f\heli_light_01\data\skins\heli_light_01_ext_jeans_co.paa",""};
+    crew="St_Crime_Heli_Pilot";
+    typicalCargo[]={"St_Crime_Heli_Pilot"};
   };
 
   class St_Crime_Cessna: C_Plane_Civil_01_F
@@ -412,9 +412,9 @@ class cfgVehicles
     faction="St_Crime_Street_Criminals";
     side=0;
     displayName="Cessna";
-    hiddenSelectionsTextures[]={"a3\air_f_exp\plane_civil_01\data\btt_ext_01_wave_co.paa","a3\air_f_exp\plane_civil_01\data\btt_ext_02_wave_co.paa","a3\air_f_exp\plane_civil_01\data\btt_int_01_co.paa","a3\air_f_exp\plane_civil_01\data\btt_int_02_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    hiddenSelectionsTextures[]={"a3\air_f_exp\plane_civil_01\data\btt_ext_01_wave_co.paa","a3\air_f_exp\plane_civil_01\data\btt_ext_02_wave_co.paa","a3\air_f_exp\plane_civil_01\data\btt_int_01_tan_co.paa","a3\air_f_exp\plane_civil_01\data\btt_int_02_tan_co.paa"};
+    crew="St_Crime_Pilot";
+    typicalCargo[]={"St_Crime_Pilot"};
   };
 
   class St_Crime_RHIB_Boat: C_Boat_Transport_02_F
@@ -423,8 +423,8 @@ class cfgVehicles
     side=0;
     displayName="RHIB Boat";
     hiddenSelectionsTextures[]={"a3\boat_f_exp\boat_transport_02\data\boat_transport_02_exterior_civilian_co.paa","a3\boat_f_exp\boat_transport_02\data\boat_transport_02_interior_2_civilian_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_Utility_Truck: C_Van_01_transport_F
@@ -432,9 +432,9 @@ class cfgVehicles
     faction="St_Crime_Street_Criminals";
     side=0;
     displayName="Utility Truck";
-    hiddenSelectionsTextures[]={"a3\soft_f_gamma\van_01\data\van_01_ext_red_co.paa","a3\soft_f_gamma\van_01\data\van_01_adds_co.paa","a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    hiddenSelectionsTextures[]={"a3\soft_f_gamma\van_01\data\van_01_ext_black_co.paa","a3\soft_f_gamma\van_01\data\van_01_adds_co.paa","a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_Van_Services: C_Van_02_service_F
@@ -443,8 +443,8 @@ class cfgVehicles
     side=0;
     displayName="Van Services";
     hiddenSelectionsTextures[]={"a3\soft_f_orange\van_02\data\van_body_civservice_co.paa","a3\soft_f_orange\van_02\data\van_wheel_dirty_co.paa","a3\soft_f_orange\van_02\data\van_glass_civservice_ca.paa","a3\soft_f_orange\van_02\data\van_body_civservice_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
   class St_Crime_Van_Transportation: C_Van_02_transport_F
@@ -453,8 +453,8 @@ class cfgVehicles
     side=0;
     displayName="Van Transportation";
     hiddenSelectionsTextures[]={"a3\soft_f_orange\van_02\data\van_body_orange_co.paa","a3\soft_f_orange\van_02\data\van_wheel_transport_co.paa","a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa","a3\soft_f_orange\van_02\data\van_body_orange_co.paa"};
-    crew="St_Crime_Ammo_Carrier";
-    typicalCargo[]={"St_Crime_Ammo_Carrier"};
+    crew="St_Crime_Get_Away_Driver";
+    typicalCargo[]={"St_Crime_Get_Away_Driver"};
   };
 
 
