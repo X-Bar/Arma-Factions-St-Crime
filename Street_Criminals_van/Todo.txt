@@ -3,3 +3,13 @@ St_Crime
 
 MOD NAME
 Street Criminals
+
+
+
+- Fix Kill Team spacing
+- Fix reinformcement spacing  (5 after second unit)
+- Replace Team leader PDW with shotgun 
+- Zeus/editor Portraits
+- Random uniforms
+- Add Ham Radiomen
+- Update unit ranks
