@@ -1,3 +1,12 @@
+// Author X-Bar
+// https://steamcommunity.com/sharedfiles/filedetails/?id=2255460858
+// Made using Drongo's Config Generator
+// https://steamcommunity.com/sharedfiles/filedetails/?id=1771335720
+
+// Street Criminals
+// vanilla version
+
+
 class cfgPatches
 {
   class St_Crime_Street_Criminals
