@@ -4,7 +4,11 @@ St_Crime
 MOD NAME
 Street Criminals
 
+Todo
 
+- task incomplete 
+/ task implemented
+X task tested and complete
 
 - Fix Kill Team spacing
 - Fix reinformcement spacing  (5 after second unit)
@@ -13,3 +17,7 @@ Street Criminals
 - Random uniforms
 - Add Ham Radiomen
 - Update unit ranks
+
+Issues
+
+Other changes
